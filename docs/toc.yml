@@ -1,0 +1,7 @@
+version: 1
+project:
+  toc:
+    - file: index.md
+    - title: Getting Started
+      children:
+        - file: start/installation.md
