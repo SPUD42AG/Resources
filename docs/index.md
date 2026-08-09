@@ -1,6 +1,6 @@
 ---
-title: Spartronics Documentation
+title: Documentation
 description: thing
 ---
 
-I need to put stuff here idk right now
+'*insert name*' is a collection of documentation and teaching tools designed for use by [FRC Team 4915: Spartronics]. 

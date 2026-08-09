@@ -1,13 +1,13 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 extends:
-  -toc.yml
+  toc.yml
 project:
   id: 66f6a28a-6249-4079-b959-8f7731efef3b
   title: Documentation
   description:
   keywords: []
-  authors: [Ehren von Ibsch]
+  authors: []
   github: https://github.com/SPUD42AG/Resources
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
