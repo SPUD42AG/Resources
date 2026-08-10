@@ -2,6 +2,13 @@ version: 1
 project:
   toc:
     - file: index.md
-    - title: Getting Started
+    - file: install.md
+    - title: Learning Course
       children:
-        - file: start/installation.md
+        - file:
+    - title: API Reference
+      children:
+        - file:
+    - title: Hardware
+      children:
+        - file:
