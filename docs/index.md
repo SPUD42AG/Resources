@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Spartronics Docs
 description: thing
 ---
 

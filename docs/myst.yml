@@ -5,10 +5,10 @@ extends:
 
 project:
   id: 66f6a28a-6249-4079-b959-8f7731efef3b
-  title: Documentation
+  title: Spartronics Docs
   description:
-  keywords: [Cool, Awesome]
-  authors: []
+  keywords: []
+  authors: [Spartronics 4915]
   github: https://github.com/SPUD42AG/Resources
 
 site:

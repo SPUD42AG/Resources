@@ -2,13 +2,24 @@ version: 1
 project:
   toc:
     - file: index.md
-    - file: install.md
+    - file: installation_guide.md
     - title: Learning Course
       children:
-        - file:
+        - file: index.md
+        - title: 01 - Getting Started
+          children:
+            - file: 
     - title: API Reference
       children:
-        - file:
+        - file: index.md
+        - file: wpilib.md
+          children:
+            - file: 
+        - file: phoenix6.md
+        - file: photon_vision.md
     - title: Hardware
       children:
-        - file:
+        - file: index.md
+        - file: radio_VH109.md
+        - file: roborio.md
+        - file: systemcore.md
