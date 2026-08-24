@@ -3,23 +3,20 @@ project:
   toc:
     - file: index.md
     - file: installation_guide.md
-    - title: Learning Course
+    - file: course/index.md
       children:
-        - file: course/index.md
-        - file: getting_started.md
+        - file: course/getting-started/index.md
           children:
-            - pattern: 'course/*.md'
+            - pattern: 'course/getting-started/*.md'
               sort: descending 
-    - title: API Reference
+    - file: reference/index.md
       children:
-        - file: hardware/index.md
-        - file: wpilib.md
+        - file: reference/wpilib/wpilib.md
           children:
             - file: 
-        - file: phoenix6.md
-        - file: photon_vision.md
-    - title: Hardware
+        - pattern: 'reference/*.md'
+          sort: descending
+    - file: hardware/index.md
       children:
-        - file: hardware/index.md
         - pattern: 'hardware/*.md'
           sort: descending
