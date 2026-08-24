@@ -5,13 +5,14 @@ project:
     - file: installation_guide.md
     - title: Learning Course
       children:
-        - file: index.md
-        - title: 01 - Getting Started
+        - file: course.md
+        - file: getting_started.md
           children:
-            - file: 
+            - pattern: '*.md'
+              sort: descending 
     - title: API Reference
       children:
-        - file: index.md
+        - file: reference.md
         - file: wpilib.md
           children:
             - file: 
@@ -19,7 +20,6 @@ project:
         - file: photon_vision.md
     - title: Hardware
       children:
-        - file: index.md
-        - file: radio_VH109.md
-        - file: roborio.md
-        - file: systemcore.md
+        - file: hardware.md
+        - pattern: '*.md'
+          sort: descending
