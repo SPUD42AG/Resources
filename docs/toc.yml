@@ -5,14 +5,14 @@ project:
     - file: installation_guide.md
     - title: Learning Course
       children:
-        - file: course.md
+        - file: course/index.md
         - file: getting_started.md
           children:
-            - pattern: '*.md'
+            - pattern: 'course/*.md'
               sort: descending 
     - title: API Reference
       children:
-        - file: reference.md
+        - file: hardware/index.md
         - file: wpilib.md
           children:
             - file: 
@@ -20,6 +20,6 @@ project:
         - file: photon_vision.md
     - title: Hardware
       children:
-        - file: hardware.md
-        - pattern: '*.md'
+        - file: hardware/index.md
+        - pattern: 'hardware/*.md'
           sort: descending
