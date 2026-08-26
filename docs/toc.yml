@@ -3,20 +3,29 @@ project:
   toc:
     - file: index.md
     - file: installation_guide.md
+
     - file: course/index.md
       children:
         - file: course/getting-started/index.md
           children:
-            - pattern: 'course/getting-started/*.md'
-              sort: descending 
-    - file: reference/index.md
-      children:
-        - file: reference/wpilib/wpilib.md
-          children:
-            - file: 
-        - pattern: 'reference/*.md'
-          sort: descending
+            - file: index.md # Placeholder
+
     - file: hardware/index.md
       children:
-        - pattern: 'hardware/*.md'
-          sort: descending
+        - title: Cameras
+          children:
+            - pattern: 'hardware/cameras/*.md'
+        - title: Computers
+          children:
+            - pattern: 'hardware/computers/*.md'
+        - title: Radios
+          children:
+            - pattern: 'hardware/radios/*.md'
+              
+    - file: reference/index.md
+      children:
+        - title: WPILib
+          children:
+            - pattern: 'reference/wpilib/*.md'
+        - pattern:
+          - pattern: 'reference/*.md'

@@ -1,3 +1,0 @@
----
-title: Phoenix 6
----
