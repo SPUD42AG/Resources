@@ -18,6 +18,9 @@ project:
         - title: Computers
           children:
             - pattern: 'hardware/computers/*.md'
+        - title: Motors
+          children:
+            - pattern: 'hardware/motors/*.md'
         - title: Radios
           children:
             - pattern: 'hardware/radios/*.md'
@@ -27,5 +30,13 @@ project:
         - title: WPILib
           children:
             - pattern: 'reference/wpilib/*.md'
-        - pattern:
-          - pattern: 'reference/*.md'
+        - file: reference/photon/photon_lib.md
+          children:
+            - file: reference/photon/getting_target_data.md
+            - file: reference/photon/using_target_data.md
+            - file: reference/photon/pose_estimation.md
+            - file: reference/photon/camera_controls.md
+            - file: reference/photon/simulation.md
+        - file: reference/phoenix/phoenix_6.md
+          children:
+            - file: 

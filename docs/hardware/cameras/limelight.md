@@ -124,7 +124,7 @@ All configuration is done through this web interface. Changes are saved automati
 There are many different settings to tune to achieve optimal performance. As it would take a while to explain here is the documentation as explained by **Limelight**.
 
 :::{note}
-This section will be added later, as there is a lot to consider and write down when referencing the pipeline setup. If you have questions in the meantime reach out to @SPUD42AG or @Pointygreenskies.
+This section will be added later, as there is a lot to consider and write down when referencing the pipeline setup. If you have questions in the meantime reach out to SPUD42AG or Pointygreenskies.
 :::
 
 # Hardware Setup
@@ -132,7 +132,7 @@ This section will be added later, as there is a lot to consider and write down w
 ## Mounting Limelight
 
 :::{figure} ../../images/limelight_mounting.png
-:label: limelight-wiring
+:label: limelight-mounting
 :width: 80%
 :align: center
 :::
