@@ -39,4 +39,6 @@ project:
             - file: reference/photon/simulation.md
         - file: reference/phoenix/phoenix_6.md
           children:
-            - file: 
+            - file: reference/phoenix/devices/devices.md
+            - file: reference/phoenix/general/general.md
+            - file: reference/phoenix/mechanisms/mechanisms.md
