@@ -6,9 +6,10 @@ project:
 
     - file: course/index.md
       children:
-        - file: course/getting-started/index.md
-          children:
-            - file: index.md # Placeholder
+        - file: course/phase_1/index.md 
+        - file: course/phase_2/index.md
+        - file: course/phase_3/index.md
+        - file: course/phase_4/index.md
 
     - file: hardware/index.md
       children:
