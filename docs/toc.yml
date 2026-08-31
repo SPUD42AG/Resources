@@ -8,6 +8,17 @@ project:
       children:
         - file: course/phase_1/index.md 
         - file: course/phase_2/index.md
+          children:
+            - file: course/phase_2/variables.md
+            - file: course/phase_2/methods.md
+            - file: course/phase_2/functions.md
+            - file: course/phase_2/syntax.md
+            - file: course/phase_2/conditionals.md
+            - file: course/phase_2/project.md
+            - file: course/phase_2/loops.md
+            - file: course/phase_2/classes.md
+            - file: course/phase_2/enums.md
+            - file: course/phase_2/imports.md
         - file: course/phase_3/index.md
         - file: course/phase_4/index.md
 
